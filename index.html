@@ -5,9 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Clock</title>
+    <style>
+        div{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 70vh;
+           justify-content: center;
+        }
+        h2{
+          font-weight: bolder;
+          padding: 40px;
+        background-color: #3498db;
+          border-radius: 15px;
+          width: 200px;
+          height: 50px;
+        font-family: sans-serif;
+          border: 10px solid #2980b9;
+        }
+    </style>
 </head>
-<body>
+<body style="background-color: #34495e">
     
+    <div>
+        <h2 style="text-align: center;">
+            <span id="hour"></span>  : 
+            <span id="min">m</span>  : 
+            <span id="second">s</span><sub><small> pm</small></sub>
+        </h2>
+    </div>
     <script src="play.js"></script>
 </body>
 </html>
